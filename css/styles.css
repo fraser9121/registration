@@ -1,0 +1,173 @@
+/*****************************************
+GENERAL
+*****************************************/
+
+
+
+
+img {
+	max-width: 100%;
+}
+
+.wrapper {
+	font-family: merriweather;
+	background-color: #000;
+	color: #03ada3;
+	margin: 0 auto;
+	border: 6px solid #03ada3;
+
+}
+
+h1 {
+	text-align: center; 
+	padding: 20px 0;
+	margin: 0;
+	border-bottom: 5px dotted #fff;
+}
+
+.top-content {
+	text-align: center;
+	margin: 0 20px;
+	padding-bottom: 20px;
+}
+
+
+/*****************************************
+FORM STYLING
+*****************************************/
+
+
+
+
+form {
+	margin: 0 auto;
+	max-width: 460px;
+	padding-bottom: 20px;
+	background-color: #343234;
+	border: 3px solid #fff;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+label:not(.news) {
+	display: block;
+	padding-top: 20px;
+	font-size: 0.9em;
+}
+
+input[name*="user"] {
+	width: 90%;
+	height:20px;
+	border-radius: 10px;
+}
+
+input[placeholder] {
+	text-align: right;
+	font-size: 0.8em;
+	padding-right: 2%;
+}
+
+input:focus {
+	border: 3px solid #03ada3;
+}
+
+select {
+	width: 90%;
+	height: 30px;
+}
+
+input[id="zip"] {
+	width: 30%;
+}
+
+.newsletter {
+	padding-top: 20px;
+	border-top: 3px solid #03ada3;
+	margin: 0 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin: 0 6px 6px 0;
+}
+
+textarea {
+	width: 95%;
+	margin: 5px 7px;
+}
+
+
+
+
+/*****************************************
+BUTTON STYLING
+*****************************************/
+
+
+
+
+button {
+	width: 95%;
+	height: 60px;
+	margin: 5px 10px;
+}
+
+button[type="submit"] {
+	background-color: #03ada3;
+}
+
+
+
+
+
+/*****************************************
+FOOTER STYLING
+*****************************************/
+
+footer {
+	text-align: center;
+	padding: 30px 0px;
+	font-size: .7em;
+}
+
+
+
+
+/*****************************************
+INPUT TRANSITION
+*****************************************/
+
+
+
+
+
+input[placeholder]{
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px #03ada3;
+	color: #03ada3;
+	background: rgba(0,0,0,0.7);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+input[placeholder]:hover {
+	text-shadow: 0px 0px 10px #03ada3;
+	color: transparent;
+	background: rgba(0,0,0,0.2);
+}
+input[placeholder]:hover{
+	background: rgba(0,0,0,1.0);
+	text-shadow: 0px 0px 1px #03ada3;
+}
